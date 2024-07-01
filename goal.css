@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.body {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.6);
+  border-radius: 2%;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 120%;
+  font-weight: bold;
+}
+.name,
+.email {
+  padding-left: 5%;
+  font-size: 18px;
+}
+.time-info {
+  padding-left: 5%;
+  font-size: 18px;
+  margin-top: 7px;
+}
+.time,
+.day {
+  color: blue;
+  font-family: monospace;
+  font-weight: bold;
+}
+.goal {
+  padding-right: 10px;
+}
+
+.link p {
+  padding-left: 5%;
+  font-size: 18px;
+}
+.link li {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .body {
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 40px;
+    border-radius: 4%;
+    padding: 40px;
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+
+  h2 {
+    font-size: 170%;
+  }
+  .name,
+  .email {
+    padding-left: 5%;
+    font-size: 21px;
+  }
+  .time-info {
+    padding-left: 5%;
+    font-size: 21px;
+    margin-top: 7px;
+  }
+  .time,
+  .day {
+    color: blue;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  .goal {
+    padding-right: 10px;
+    font-size: 19px;
+  }
+
+  .link p {
+    padding-left: 5%;
+    font-size: 21px;
+  }
+  .link li {
+    font-size: 20px;
+  }
+}
+
+
+
+
+@media (min-width: 1100px) {
+    .body {
+      font-family: "Times New Roman", Times, serif;
+      margin-top: 40px;
+      border-radius: 2%;
+      padding: 70px;
+    }
+    .image {
+      width: 350px;
+      height: 350px;
+    }
+  
+    h2 {
+      font-size: 170%;
+    }
+    .name,
+    .email {
+      padding-left: 5%;
+      font-size: 23px;
+    }
+    .time-info {
+      padding-left: 5%;
+      font-size: 23px;
+      margin-top: 7px;
+    }
+    .time,
+    .day {
+      color: blue;
+      font-family: monospace;
+      font-weight: bold;
+    }
+    .goal {
+      padding-right: 10px;
+      font-size: 21px;
+    }
+  
+    .link p {
+      padding-left: 5%;
+      font-size: 23px;
+    }
+    .link li {
+      font-size: 20px;
+    }
+  }
+  
